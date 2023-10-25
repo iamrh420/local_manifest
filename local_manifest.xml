@@ -6,6 +6,6 @@
               
   <project path="device/samsung/a10" name="device_samsung_a10" remote="iamrh420" revision="tiramisu" />  
   <project path="vendor/samsung/a10" name="vendor_samsung_a10" remote="iamrh420" revision="tiramisu" />  
-  <project path="kernel/samsung/exynos7885" name="kernel_samsung_exynos7885" remote="iamrh420" revision="R13-AOSP" />
+  <project path="kernel/samsung/universal7885" name="kernel_samsung_universal7885" remote="iamrh420" revision="R14.2-AOSP" />
   
 </manifest>
