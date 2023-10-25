@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>      
+
+      <remote name="iamrh420"
+          fetch="https://github.com/iamrh420" />
+              
+  <project path="device/samsung/a10" name="device_samsung_a10" remote="iamrh420" revision="tiramisu" />  
+  <project path="vendor/samsung/a10" name="vendor_samsung_a10" remote="iamrh420" revision="tiramisu" />  
+  <project path="kernel/samsung/exynos7885" name="kernel_samsung_exynos7885" remote="iamrh420" revision="R13-AOSP" />
+  
+</manifest>
