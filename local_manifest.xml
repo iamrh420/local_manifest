@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<manifest>      
+<manifest>
+        <remote name="eureka"
+		fetch="https://github.com/eurekadevelopment" />
+	<remote name="linage"
+		fetch="https://github.com/LineageOS" />
 
-      <remote name="iamrh420"
-          fetch="https://github.com/iamrh420" />
-              
-  <project path="device/samsung/a10" name="device_samsung_a10" remote="iamrh420" revision="tiramisu" />  
-  <project path="vendor/samsung/a10" name="vendor_samsung_a10" remote="iamrh420" revision="tiramisu" />  
-  <project path="kernel/samsung/universal7885" name="kernel_samsung_universal7885" remote="iamrh420" revision="R14.2-AOSP" />
-  
+        <!-- Sync trees -->
+        <project path="device/samsung" name="android_device_samsung_exynos7885" remote="eureka" revision="android-13" />
+        <project path="kernel/samsung/exynos7885" name="Eureka-Kernel-Exynos7885-Q-R-S" remote="eureka" revision="R14.2_rom" />
+        <project path="hardware/samsung_slsi/libbt" name="android_hardware_samsung_slsi_libbt" remote="linage" revision="lineage-20" />
+        <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="eureka" revision="lineage-21" />
+        <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="linage" revision="lineage-20" />
+        <project path="hardware/samsung" name="android_hardware_samsung" remote="eureka" revision="AOSP-13"/>
+	<project path="vendor/samsung" name="android_vendor_samsung_exynos7885" remote="eureka" revision="android-13"/>
+	<!-- SLSI Linaro -->
+	<project path="hardware/samsung_slsi-linaro/graphics" name="K9100ii/android_hardware_samsung_slsi-linaro_graphics" remote="github" revision="lineage-20"/>
+	<project path="hardware/samsung_slsi-linaro/exynos" name="K9100ii/android_hardware_samsung_slsi-linaro_exynos" remote="github" revision="lineage-20"/>
+	<project path="hardware/samsung_slsi-linaro/config" name="K9100ii/android_hardware_samsung_slsi-linaro_config" remote="github" revision="lineage-20"/>
+	<project path="hardware/samsung_slsi-linaro/openmax" name="K9100ii/android_hardware_samsung_slsi-linaro_openmax" remote="github" revision="lineage-20"/>
 </manifest>
