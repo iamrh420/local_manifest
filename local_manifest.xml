@@ -6,13 +6,13 @@
 		fetch="https://github.com/LineageOS" />
 
         <!-- Sync trees -->
-        <project path="device/samsung" name="android_device_samsung_exynos7885" remote="eureka" revision="android-13" />
+        <project path="device/samsung/a10" name="android_device_samsung_exynos7885_android-13_a10" remote="eureka" revision="android-13" />
         <project path="kernel/samsung/exynos7885" name="Eureka-Kernel-Exynos7885-Q-R-S" remote="eureka" revision="R14.2_rom" />
         <project path="hardware/samsung_slsi/libbt" name="android_hardware_samsung_slsi_libbt" remote="linage" revision="lineage-20" />
         <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="eureka" revision="lineage-21" />
         <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="linage" revision="lineage-20" />
         <project path="hardware/samsung" name="android_hardware_samsung" remote="eureka" revision="AOSP-13"/>
-	<project path="vendor/samsung" name="android_vendor_samsung_exynos7885" remote="eureka" revision="android-13"/>
+	<project path="vendor/samsung" name="android_vendor_samsung_exynos7885_android-13_a10" remote="eureka" revision="android-13"/>
 	<!-- SLSI Linaro -->
 	<project path="hardware/samsung_slsi-linaro/graphics" name="K9100ii/android_hardware_samsung_slsi-linaro_graphics" remote="github" revision="lineage-20"/>
 	<project path="hardware/samsung_slsi-linaro/exynos" name="K9100ii/android_hardware_samsung_slsi-linaro_exynos" remote="github" revision="lineage-20"/>
